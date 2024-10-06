@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar-brand img {
+  max-width: 100px;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link.active {
+  color: #e0e0e0;
+}
+
+.navbar-nav .nav-link.disabled {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Cards */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.card-text small {
+  display: block;
+}
+
+.card .list-group-item {
+  border: none;
+}
+
+.d-flex .text-muted {
+  margin-right: 10px;
+}
+
+/* Formulario de suscripción */
+.bg-success {
+  background-color: #28a745 !important;
+}
+
+.formu .form-control {
+  margin-bottom: 15px;
+}
+
+.formu .btn {
+  margin-top: 15px;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
